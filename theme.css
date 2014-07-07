@@ -14,7 +14,7 @@ body {
 .navigation {
     border: 2px solid;
     border-radius: 2px;
-        font-size: 20px;
+    font-size: 20px;
     font-weight: normal;
     text-align: left;
     border-color: #555555;
@@ -266,106 +266,29 @@ h3 {
 }
 
 #game-navigation .current-date {
-
     padding: 11px 0px;
-
-    font-family: KnightsQuestRegular;
     font-size: 16px;
-    text-shadow: -1px 1px 2px black, 1px -1px 1px #FFCF68;
-
-    /* border styling */
     border: 2px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-
     border-color: #555555;
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-
-    background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
+    background: #3a3830;
 }
 
 #game-navigation a {
     line-height: 0.6em;
 }
 
-#game-navigation a:hover {
-    box-shadow: -10px 0px 6px -6px #fff;
-
-}
+#game-navigation a:hover {}
 
 #resource-bar
 {
-    /* border styling */
     border: 2px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-    /* internal styling - padding etc. */
-
-    /* typography */
-    font-family: KnightsQuestRegular;
     font-size: 14px;
-
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-
-    /* colors */
     border-color: #555555;
-    -moz-box-shadow:    0px -1px 1px #fffbf1,
-                                    inset 0px 1px 2px #000,
-                                    inset 0px -1px 1px #fffbf1,
-                                    0px 1px 1px #000,
-                                    -1px 0px 2px #000,
-                                    inset 1px 0px 1px #fffbf1,
-                                    inset -1px 0px 2px #000,
-                                    1px 0px 1px #fffbf1;
-    -webkit-box-shadow: 0px -1px 1px #fffbf1,
-                                        inset 0px 1px 2px #000,
-                                        inset 0px -1px 1px #fffbf1,
-                                        0px 1px 1px #000,
-                                        -1px 0px 2px #000,
-                                        inset 1px 0px 1px #fffbf1,
-                                        inset -1px 0px 2px #000,
-                                        1px 0px 1px #fffbf1;
-    box-shadow:     0px -1px 1px #fffbf1,
-                                inset 0px 1px 2px #000,
-                                inset 0px -1px 1px #fffbf1,
-                                0px 1px 1px #000,
-                                -1px 0px 2px #000,
-                                inset 1px 0px 1px #fffbf1,
-                                inset -1px 0px 2px #000,
-                                1px 0px 1px #fffbf1;
-
-    background: #d7d7d7; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #d7d7d7 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d7d7d7), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #d7d7d7 0%,#353535 100%); /* W3C */
-
+    background: #d7d7d7;
 }
 
 #resource-bar thead {
-    background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
+    background: #3a3830;
 }
 
 #resource-bar thead th {
@@ -386,10 +309,6 @@ h3 {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-align: right;
     color: #a9a9a9;
-    -moz-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    -webkit-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    filter: glow(color=#252525,strength=3);
 }
 
 #resource-bar tbody th {
