@@ -272,39 +272,23 @@ h3 {
 }
 
 #resource-bar thead {
-    background: #888888;
-}
-
-#resource-bar thead th {
-    font-weight: normal;
+    background: #aaaaaa;
 }
 
 #resource-bar tbody th,
 #resource-bar tbody td{
     width: 98px;
-    border-right: 1px inset #444444;
-    border-bottom: 1px inset #444444;
-
     padding: 3px 6px 3px 6px;
-    background: transparent;
-
-    font-size: 11px;
-    font-weight: lighter;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    text-align: right;
-    color: #a9a9a9;
+    font-size: 14px;
+    color: #aaaaaa;
 }
 
 #resource-bar tbody th {
-    font-size: 12px;
-    font-weight: bolder;
+    font-size: 14px;
 }
 
 #resource-bar thead th {
     width: 98px;
-    border-right: 1px inset #141413;
-    border-bottom: 1px inset #141413;
-    background: transparent;
 }
 
 
