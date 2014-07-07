@@ -590,13 +590,11 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content thead th {
     font-weight: normal;
-    font-size: 16px;
     background: #3a3830;
 }
 
 .game-content tbody th {
     border-left: 1px solid #000000;
-    font-size: 16px;
 }
 
 .game-content tbody th:first-child {
