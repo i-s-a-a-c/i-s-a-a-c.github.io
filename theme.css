@@ -403,7 +403,7 @@ div.uploader span.action
 }
 
 .game-content form tbody th {
-    border-left: 2px ridge rgba(48, 48, 48, 0.4);
+    border-left: 1px ridge #000000;
     font-size: 14px;
 
 }
@@ -423,9 +423,7 @@ div.uploader span.action
 }
 
 .game-content form tbody tr:nth-child(even) {
-    background: rgb(148,48, 48);
-    background: rgba(148, 48, 48, 0.1);
-
+    background: #444444;
 }
 
 
