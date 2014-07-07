@@ -562,6 +562,9 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-header h1
 {
+    height: 22px;
+    margin: 0px 1px;
+    padding: 6px 4px 1px 4px;
     font-size: 16px;
     color: #000000;
 }
