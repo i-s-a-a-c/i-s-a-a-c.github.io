@@ -1,21 +1,10 @@
 @import url("uniform.utopia.css");
 
 
-@font-face {
-    font-family: 'KnightsQuestRegular';
-    src: url('./fonts/knights-webfont.eot');
-    src: url('./fonts/knights-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/knights-webfont.woff') format('woff'),
-         url('./fonts/knights-webfont.ttf') format('truetype'),
-         url('./fonts/knights-webfont.svg#KnightsQuestRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
-    color: white;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: red;
+    color: black;
+    font-family: "Times New Roman",Georgia,Serif;
+    background-color: white;
 }
 
 
