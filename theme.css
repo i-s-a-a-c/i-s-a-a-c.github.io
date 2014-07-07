@@ -593,7 +593,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content tbody th {
-    border-left: 6px ridge rgba(148, 48, 48, 0.4);
+    border-left: 1px solid #000000;
     font-size: 16px;
 }
 
@@ -606,13 +606,12 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content tbody tr {
-    border-bottom: 2px solid #3a3830;
-    border-top: 2px groove rgba(48, 48, 48, 0.4);
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
 }
 
 .game-content tbody tr:nth-child(even) {
-    background: rgb(148, 48, 48);
-    background: rgba(148, 48, 48, 0.6);
+    background: #aaaaaa;
 }
 
 .game-content tbody tr.sub-total {
