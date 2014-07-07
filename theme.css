@@ -280,7 +280,7 @@ h3 {
     width: 98px;
     padding: 3px 6px 3px 6px;
     font-size: 14px;
-    color: #aaaaaa;
+    color: #000000;
 }
 
 #resource-bar tbody th {
@@ -308,7 +308,7 @@ h3 {
 }
 
 .game-content h3 {
-    font-size: 20px;
+    font-size: 16px;
     color: #000000;
 }
 
@@ -331,12 +331,11 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
 }
 
 .game-content form.change-kingdom .change-kingdom-form {
-    font-size: 20px;
+    font-size: 16px;
     color: #000000;
 }
 
