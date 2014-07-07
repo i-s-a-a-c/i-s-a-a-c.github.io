@@ -28,51 +28,24 @@ FOLLOW THIS FORMAT:
 body {
     color: white;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: black;
+    background-color: red;
 }
 
 
 #header-logo {
-    background: url(./images/logo_header.png) no-repeat top left;
-    width: 243px;
-    height: 49px;
-    position: absolute;
+    width: 1px;
+    height: 1px;
 }
 
 .navigation {
-
-    /* border styling */
     border: 2px solid;
     border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-    /* internal styling - padding etc. */
-
-    /* typography */
     font-family: KnightsQuestRegular;
     font-size: 20px;
     font-weight: normal;
     text-align: left;
-
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-    filter: glow(color=#252525,strength=3);
-
-    /* colors */
     border-color: #555555;
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-
-    background: #494432; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #7b7354 0%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7b7354), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #7b7354 0%,#29261c 100%); /* W3C */
+    background: #494432;
 }
 
 .navigation a {
