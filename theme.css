@@ -399,7 +399,6 @@ div.uploader span.action
     font-weight: normal;
     font-size: 14px;
     text-align: center;
-    text-decoration: none;
     vertical-align: bottom;
 }
 
@@ -425,7 +424,7 @@ div.uploader span.action
 
 .game-content form tbody tr:nth-child(even) {
     background: rgb(148,48, 48);
-    background: rgba(48, 48, 48, 0.1);
+    background: rgba(148, 48, 48, 0.1);
 
 }
 
