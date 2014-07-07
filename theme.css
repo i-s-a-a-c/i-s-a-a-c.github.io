@@ -1,6 +1,5 @@
 @import url("uniform.utopia.css");
 
-
 body {
     color: black;
     font-family: "Times New Roman",Georgia,Serif;
@@ -15,8 +14,7 @@ body {
 .navigation {
     border: 2px solid;
     border-radius: 2px;
-    font-family: KnightsQuestRegular;
-    font-size: 20px;
+        font-size: 20px;
     font-weight: normal;
     text-align: left;
     border-color: #555555;
@@ -29,7 +27,6 @@ body {
 #header-navigation div:hover {}
 
 #account-container {
-    font-family: KnightsQuestRegular;
     font-size: 20px;
 }
 
@@ -50,7 +47,6 @@ body {
 {
     font-size: 18px;
     font-weight: bolder;
-    font-family: KnightsQuestRegular;
     border-bottom: 1px solid #29261c;
 
 }
@@ -102,7 +98,6 @@ a:hover {
 h1,
 h2,
 h3 {
-    font-family: KnightsQuestRegular;
     font-weight: 200;
     color: #fff;
 }
@@ -171,7 +166,6 @@ h3 {
 }
 
 .lobby-panel table th {
-    font-family: KnightsQuestRegular;
     font-size: 20px;
 }
 
@@ -222,87 +216,29 @@ h3 {
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
-
-    /* border styling */
     border: 1px solid;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-
-
-    /* internal styling - padding etc. */
-    /* typography */
-    font-family: KnightsQuestRegular;
     font-size: 20px;
 }
 
 .good.message
 {
     color: #fefff7;
-    -moz-text-shadow: -1px 1px 2px #363a19, 1px -1px 2px #363a19;
-    -webkit-text-shadow: -1px 1px 2px #363a19, 1px -1px 2px #363a19;
-    text-shadow: -1px 1px 2px #363a19, 1px -1px 1px #363a19;
-
-    /* colors */
     border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #cbd3a9 , -1px 1px 2px #363a19, inset 0px 0px 10px #000;
-
-    background: #718d16; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #789316 0%, #5d7a19 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#789316 ), color-stop(100%,#5d7a19)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #789316  0%,#5d7a19 100%); /* W3C */
-
+    background: #718d16;
 }
 
 .bad.message
 {
     color: #FFFCF7;
-    -moz-text-shadow: -1px 1px 2px #331100, 1px -1px 2px #331100;
-    -webkit-text-shadow: -1px 1px 2px #331100, 1px -1px 2px #331100;
-    text-shadow: -1px 1px 2px #331100, 1px -1px 1px #331100;
-
-    /* colors */
     border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D3AEA9 , -1px 1px 2px #331100, inset 0px 0px 10px #000;
-
-    background: #521802; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #641E04 0%, #401100 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#641E04 ), color-stop(100%,#401100)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #641E04  0%,#401100 100%); /* W3C */
-
+    background: #521802;
 }
 
 .info.message
 {
     color: #FFFCF7;
-    -moz-text-shadow: -1px 1px 2px #362301, 1px -1px 2px #362301;
-    -webkit-text-shadow: -1px 1px 2px #362301, 1px -1px 2px #362301;
-    text-shadow: -1px 1px 2px #362301, 1px -1px 1px #362301;
-
-    /* colors */
     border-color: #feffea;
-    -moz-box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D4C7AF , -1px 1px 2px #362301, inset 0px 0px 10px #000;
-
-    background: #D09734; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #D09734 0%, #594118 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#D09734 ), color-stop(100%,#594118)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #D09734  0%,#594118 100%); /* W3C */
-
+    background: #D09734;
 }
 
 
