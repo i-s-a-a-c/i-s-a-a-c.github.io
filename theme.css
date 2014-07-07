@@ -3,7 +3,7 @@
 body {
     color: #000000;
     font-family: "Times New Roman",Georgia,Serif;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #header-logo {
@@ -255,29 +255,24 @@ h3 {
 }
 
 #game-navigation .current-date {
-    padding: 11px 0px;
-    font-size: 16px;
-    border: 2px solid;
-    border-color: #555555;
-    background: #3a3830;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #000000;
 }
 
 #game-navigation a {
     line-height: 0.6em;
 }
 
-#game-navigation a:hover {}
-
 #resource-bar
 {
-    border: 2px solid;
+    border: 1px solid;
     font-size: 14px;
-    border-color: #555555;
-    background: #d7d7d7;
+    border-color: #000000;
 }
 
 #resource-bar thead {
-    background: #3a3830;
+    background: #888888;
 }
 
 #resource-bar thead th {
