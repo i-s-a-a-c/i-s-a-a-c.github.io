@@ -104,7 +104,6 @@ h3 {
 .report-this {
     color: #c4a112;
     background-color: #18100e;
-    border-bottom-left-radius: 8px 8px;
 }
 
 .report-this:hover {
@@ -649,28 +648,14 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content thead th {
-    font-family: KnightsQuestRegular;
     font-weight: normal;
     font-size: 18px;
-
-    -moz-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    -webkit-text-shadow: -1px 1px 2px #000, 1px -1px 2px #ffcf68;
-    text-shadow: -1px 1px 2px #000, 1px -1px 1px #ffcf68;
-
-    background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
+    background: #3a3830;
 }
 
 .game-content tbody th {
     border-left: 6px ridge rgba(48, 48, 48, 0.4);
-    font-family: KnightsQuestRegular;
     font-size: 18px;
-
 }
 
 .game-content tbody th:first-child {
@@ -684,28 +669,23 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-content tbody tr {
     border-bottom: 2px groove rgba(48, 48, 48, 0.4);
     border-top: 2px groove rgba(48, 48, 48, 0.4);
-
 }
 
 .game-content tbody tr:nth-child(even) {
-    /* display, opacity and special effects*/
     background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.6);
-
 }
 
 .game-content tbody tr.sub-total {
     background: none;
 }
-.game-content tr.sub-total td
-{
+
+.game-content tr.sub-total td {
     border-top: 2px solid #B9B9B9;
     padding-bottom: 25px;
 }
 
-
-.game-content table.schedule
-{
+.game-content table.schedule {
     font-size:0.8em;
 }
 
@@ -731,13 +711,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 /* GAME PREFERENCES */
 .game-content div.preference-box {
-    background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
+    background: rgb(86, 83, 74);
 }
 
 .game-content div.preference-box.disabled {
@@ -751,13 +725,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 table.mail-view td.formatted-text {
-    background: rgb(86, 83, 74); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #706e62 0%, #353535 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#898989), color-stop(100%,#353535)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #706e62 0%,#353535 100%); /* W3C */
+    background: rgb(86, 83, 74);
 }
 
 div.wysiwyg {
@@ -807,10 +775,6 @@ body.wysiwyg {
 #bookmark-details #bookmarks {
     border-top: 1px solid #29261c;
     border-bottom: 1px solid #29261c;
-    -moz-box-shadow: 0px 2px 1px -1px #7b7354;
-    -webkit-box-shadow: 0px 2px 1px -1px #7b7354;
-    box-shadow: 0px 2px 1px -1px #7b7354;
-
 }
 
 #royal-command-icon {
@@ -866,10 +830,8 @@ body.wysiwyg {
 }
 
 .campaigns .campaign-message-intro {
-    font-family: KnightsQuestRegular;
     font-weight: 200;
     color: white;
-    text-shadow: -1px 1px 2px black;
     font-size: 18px;
 }
 
