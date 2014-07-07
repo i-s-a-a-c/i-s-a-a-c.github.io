@@ -566,6 +566,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     padding: 6px 4px 1px 4px;
     font-size: 18px;
     font-family: Tahoma, Geneva, sans-serif;
+    font-weight: normal;
 }
 
 .game-header a h1 {
@@ -584,6 +585,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     border-color: #000000;
     line-height: 20px;
     font-size: 12px;
+    font-weight: normal;
 }
 
 .game-content thead th {
