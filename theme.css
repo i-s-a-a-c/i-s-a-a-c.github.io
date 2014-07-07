@@ -606,13 +606,13 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content tbody tr {
-    border-bottom: 2px groove rgba(48, 48, 48, 0.4);
+    border-bottom: 2px solid #3a3830;
     border-top: 2px groove rgba(48, 48, 48, 0.4);
 }
 
 .game-content tbody tr:nth-child(even) {
-    background: rgb(48, 48, 48);
-    background: rgba(48, 48, 48, 0.6);
+    background: rgb(148, 48, 48);
+    background: rgba(148, 48, 48, 0.6);
 }
 
 .game-content tbody tr.sub-total {
