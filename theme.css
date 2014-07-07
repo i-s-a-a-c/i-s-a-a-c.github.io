@@ -593,7 +593,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content tbody th {
-    border-left: 6px ridge rgba(48, 48, 48, 0.4);
+    border-left: 6px ridge rgba(148, 48, 48, 0.4);
     font-size: 16px;
 }
 
