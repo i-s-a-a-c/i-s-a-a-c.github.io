@@ -566,7 +566,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     height: 22px;
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .game-header a h1 {
@@ -586,18 +586,18 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     border-bottom: 2px solid;
     border-color: #555555;
     line-height: 30px;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .game-content thead th {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     background: #3a3830;
 }
 
 .game-content tbody th {
     border-left: 6px ridge rgba(48, 48, 48, 0.4);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .game-content tbody th:first-child {
