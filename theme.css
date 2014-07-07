@@ -1,7 +1,7 @@
 @import url("uniform.utopia.css");
 
 body {
-    color: black;
+    color: #000000;
     font-family: "Times New Roman",Georgia,Serif;
     background-color: white;
 }
@@ -19,7 +19,7 @@ body {
     border-color: #000000;
 }
 
-.navigation a { color: #ffffff; text-decoration: none; }
+.navigation a { color: #000000; text-decoration: none; }
 
 #header-navigation div {}
 #header-navigation div:hover {}
@@ -45,7 +45,7 @@ body {
 {
     font-size: 18px;
     font-weight: bolder;
-    border-bottom: 1px solid #29261c;
+    border-bottom: 1px solid #000000;
 
 }
 
