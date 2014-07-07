@@ -559,9 +559,6 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-header
 {
     height: 30px;
-    border-top: 2px solid #6b6348;
-    border-bottom: 2px solid #6b6348;
-    background: #655e44;
 }
 
 .game-header h1
@@ -570,20 +567,13 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
     font-size: 24px;
-    text-decoration: none;
-    background: #c4bea9;
-    color: #000;
 }
 
 .game-header a h1 {
-    background: #494432;
+    background: #888888;
 }
 
-.game-header a h1:hover
-{
-    background: #29261c;
-    color: #fff;
-}
+
 
 .game-content {
     border: 1px solid #000000;
