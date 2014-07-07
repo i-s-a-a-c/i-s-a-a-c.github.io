@@ -302,23 +302,18 @@ h3 {
 
 .game-content form,
 .game-content h2 {
-    border: 2px solid;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: #181818;
-    color: #fff;
-    background: rgb(86, 83, 74);
+    border: 1px solid;
+    border-color: #000000;
+    color: #ffffff;
 }
 
 .game-content h3 {
     font-size: 24px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .game-content form {
     font-size: 12px;
-    font-weight: bolder;
-    background: rgb(86, 83, 74);
 }
 
 .game-content form.no-visible-fields {
