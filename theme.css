@@ -565,7 +565,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
     font-size: 18px;
-    font-family: Georgia, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .game-header a h1 {
