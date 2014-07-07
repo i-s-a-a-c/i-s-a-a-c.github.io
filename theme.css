@@ -70,11 +70,7 @@ body {
 
 }
 
-#middle {
-    background-image: url(./images/leather.jpg);
-    background-repeat: repeat-y;
-    background-position: top left;
-}
+#middle {}
 
 a {
     color: #e5c40f;
