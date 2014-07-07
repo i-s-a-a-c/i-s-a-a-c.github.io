@@ -336,14 +336,13 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom .change-kingdom-form {
-    font-size: 30px;
-    color: #a9a9a9;
+    font-size: 20px;
+    color: #000000;
 }
 
 .game-content form.change-kingdom.change-kingdom-target {
     border: 0px;
-    border-top: 2px solid;
-    border-color: #555555;
+    border-color: #000000;
 }
 
 input[type=text],
