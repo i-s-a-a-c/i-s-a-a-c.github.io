@@ -564,11 +564,13 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     height: 22px;
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: "calibri", Garamond;
+    font-weight: bold;
 }
 
 .game-header a h1 {
-    background: #dddddd;
+    background: #cccccc;
 }
 
 
