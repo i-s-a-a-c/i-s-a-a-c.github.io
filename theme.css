@@ -556,6 +556,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-header
 {
     height: 30px;
+    background: #cccccc;
 }
 
 .game-header h1
@@ -567,7 +568,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-header a h1 {
-    background: #888888;
+    background: #cccccc;
 }
 
 
