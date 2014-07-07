@@ -71,7 +71,7 @@ body {
 #middle {}
 
 a {
-    color: #e5c40f;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -86,14 +86,14 @@ a.info-link {
 
 a:focus,
 a:hover {
-    color: #fff;
+    color: #440000;
 }
 
 h1,
 h2,
 h3 {
     font-weight: 200;
-    color: #fff;
+    color: #000000;
 }
 
 #footer {
