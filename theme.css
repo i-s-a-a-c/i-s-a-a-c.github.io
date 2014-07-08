@@ -413,12 +413,9 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 
 
-.game-header
-{
-    height: 30px;
-    background: #cccccc;
-}
 
+
+.game-header { height: 30px; background: #dddddd; }
 .game-header h1
 {
     height: 22px;
@@ -429,10 +426,9 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-header a h1 {
-    background: #cccccc;
+    color: #000000;
+    background: #dddddd;
 }
-
-
 
 
 
@@ -448,8 +444,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content form table {
     border: 0px;
-    border-top: 10px solid;
-    border-color: #ff0000;
+    border-top: 1px solid #ff0000;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -464,8 +459,6 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content form tbody th {
     border-left: 1px ridge #000000;
-    font-size: 14px;
-
 }
 
 .game-content form tbody th:first-child {
@@ -474,7 +467,6 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content form tbody td {
     padding-right: 20px;
-    font-size: 12px;
     text-align: center;
 }
 
