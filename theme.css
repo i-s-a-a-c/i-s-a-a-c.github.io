@@ -414,11 +414,10 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 
 .game-header { height: 30px; background: #dddddd; }
-.game-header h1
-{
+.game-header h1 {
     height: 22px;
     margin: 0px 1px;
-    padding: 6px 4px 1px 4px;
+    padding: 6px 4px 6px 4px;
     font-size: 14px;
     font-weight: normal;
 }
@@ -432,7 +431,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 
 
-.game-content { border: 1px solid #000000; }
+.game-content { border: 0px solid #000000; }
 .game-content h2 { font-size: 12px; font-weight: normal; }
 .game-content thead th { font-size: 12px; font-weight: normal; }
 .game-content tbody th { font-size: 12px; border-left: 1px solid #000000; }
