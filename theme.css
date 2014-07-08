@@ -436,10 +436,10 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content { border: 1px solid #000000; }
 .game-content h2 { font-size: 12px; font-weight: normal; }
-.game-content thead th { font-weight: normal; }
-.game-content tbody th { border-left: 1px solid #000000; }
+.game-content thead th { font-size: 12px; font-weight: normal; }
+.game-content tbody th { font-size: 12px; border-left: 1px solid #000000; }
 .game-content tbody th:first-child { border-left: none; }
-.game-content tbody td { padding-right: 20px; }
+.game-content tbody td { font-size: 12px; padding-right: 20px; }
 .game-content tbody tr:nth-child(even) { background: #dddddd; }
 
 .game-content form table {
