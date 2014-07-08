@@ -7,20 +7,14 @@ body {
     background-color: #ffffff;
 }
 
-#header-logo {
-    width: 1px;
-    height: 1px;
-}
+a { color: #8888ff; text-decoration: none; }
 
-.navigation {
-    border: 1px solid;
-    font-size: 14px;
-    font-weight: normal;
-    text-align: left;
-    border-color: #000000;
-}
+a.highlighted { color: #E68910; }
 
-.navigation a { color: #000000; text-decoration: none; }
+#header-logo { width: 1px; height: 1px; }
+
+.navigation { color: #000000; font-size: 14px; font-weight: normal; text-align: left; border: 1px solid #000000; }
+.navigation a { color: #000000; }
 
 #header-navigation div {}
 #header-navigation div:hover {}
@@ -64,22 +58,6 @@ body {
     font-weight: bold;
     text-align: right;
 
-}
-
-#middle {}
-
-a {
-    color: #000000;
-    text-decoration: none;
-}
-
-a.highlighted {
-    color: #E68910;
-}
-
-a.info-link {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 14px;
 }
 
 .report-this {
