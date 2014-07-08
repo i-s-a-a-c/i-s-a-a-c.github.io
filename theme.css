@@ -456,7 +456,12 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     line-height: 20px;
 }
 
-
+.game-content form,
+.game-content h2 {
+    border: 1px solid;
+    border-color: #000000;
+    background: #dddddd;
+}
 
 .game-content h3 {
     font-size: 14px;
