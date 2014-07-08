@@ -303,67 +303,10 @@ div.uploader span.action
     font-size: 18px;
 }
 
-.game-content form table {
-    border: 0px;
-    border-top: 2px solid;
-    border-color: #555555;
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-.game-content form table thead th {
-    height: 36px;
-    font-weight: normal;
-    font-size: 14px;
-    text-align: center;
-    vertical-align: bottom;
-}
-
-.game-content form tbody th {
-    border-left: 1px ridge #000000;
-    font-size: 14px;
-
-}
-
-.game-content form tbody th:first-child {
-    border-left: none;
-}
-
-.game-content form tbody td {
-    padding-right: 20px;
-    font-size: 12px;
-    text-align: center;
-}
-
-.game-content form tbody tr {
-    border: none;
-}
-
-.game-content form tbody tr:nth-child(even) {
-    background: #444444;
-}
 
 
-.game-content form.change-kingdom #royal-commands {
-    border-top: 2px dotted #000;
-}
-
-.game-content form.change-kingdom #royal-commands table {
-    border-top: none;
-}
-
-.game-content form.change-kingdom #royal-commands table tbody td,
-.game-content form.change-kingdom #royal-commands input[type=text] {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-}
 
 
-.game-content form.change-kingdom #royal-commands .button-link {
-    font-size: 16px;
-    line-height: 20px;
-}
 
 .news-legend span.news-aid:before { content: url(./images/kingdom_news/aid_inline.png); }
 .news-legend span.news-intra-kingdom-conflict:before { content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png); }
@@ -502,6 +445,69 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody tr:nth-child(even) { background: #dddddd; }
+
+.game-content form table {
+    border: 0px;
+    border-top: 10px solid;
+    border-color: #ff0000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.game-content form table thead th {
+    height: 36px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.game-content form tbody th {
+    border-left: 1px ridge #000000;
+    font-size: 14px;
+
+}
+
+.game-content form tbody th:first-child {
+    border-left: none;
+}
+
+.game-content form tbody td {
+    padding-right: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.game-content form tbody tr {
+    border: none;
+}
+
+.game-content form tbody tr:nth-child(even) {
+    background: #444444;
+}
+
+.game-content form.change-kingdom #royal-commands {
+    border-top: 2px dotted #000;
+}
+
+.game-content form.change-kingdom #royal-commands table {
+    border-top: none;
+}
+
+.game-content form.change-kingdom #royal-commands table tbody td,
+.game-content form.change-kingdom #royal-commands input[type=text] {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.game-content form.change-kingdom #royal-commands .button-link {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
 
 .two-digit-input   { width: 50px; }
 .three-digit-input { width: 55px; }
