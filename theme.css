@@ -199,47 +199,8 @@ a.highlighted { color: #E68910; }
     color: #d0aeae;
 }
 
-.game-content form,
-.game-content h2 {
-    border: 1px solid;
-    border-color: #000000;
-}
-
-.game-content h3 {
-    font-size: 14px;
-    color: #000000;
-}
-
-.game-content form {
-    font-size: 12px;
-}
-
-.game-content form.no-visible-fields {
-    width: auto;
-    background: none;
-    border: none;
-}
-
 form ul.errorlist {
     color: #e26f80;
-}
-
-.game-content form.change-kingdom {
-    font-size: 12px;
-}
-
-.game-content form.change-kingdom .change-kingdom-heading {
-    font-size: 12px;
-}
-
-.game-content form.change-kingdom .change-kingdom-form {
-    font-size: 12px;
-    color: #000000;
-}
-
-.game-content form.change-kingdom.change-kingdom-target {
-    border: 0px;
-    border-color: #000000;
 }
 
 input[type=text],
@@ -494,6 +455,49 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
     font-size: 16px;
     line-height: 20px;
 }
+
+
+.game-content form,
+.game-content h2 {
+    border: 0px solid;
+    border-color: #000000;
+}
+
+.game-content h3 {
+    font-size: 14px;
+    color: #000000;
+}
+
+.game-content form {
+    font-size: 12px;
+}
+
+.game-content form.no-visible-fields {
+    width: auto;
+    background: none;
+    border: none;
+}
+
+
+.game-content form.change-kingdom {
+    font-size: 12px;
+}
+
+.game-content form.change-kingdom .change-kingdom-heading {
+    font-size: 12px;
+}
+
+.game-content form.change-kingdom .change-kingdom-form {
+    font-size: 12px;
+    color: #000000;
+}
+
+.game-content form.change-kingdom.change-kingdom-target {
+    border: 0px;
+    border-color: #000000;
+}
+
+
 
 
 
