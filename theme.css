@@ -497,49 +497,20 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 
 .game-content { border: 1px solid #000000; }
 .game-content h2 { font-size: 12px; font-weight: normal; }
-
 .game-content thead th { font-weight: normal; }
 .game-content tbody th { border-left: 1px solid #000000; }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
 .game-content tbody tr:nth-child(even) { background: #dddddd; }
 
-.game-content tr.sub-total td {
-    padding-bottom: 10px;
-}
-
-.game-content table.schedule {
-    font-size: 14px;
-}
+.two-digit-input   { width: 50px; }
+.three-digit-input { width: 55px; }
+.four-digit-input  { width: 70px; }
+.five-digit-input  { width: 85px; }
+.six-digit-input   { width: 100px; }
 
 
-.two-digit-input {
-    width: 50px;
-}
-.three-digit-input {
-    width: 55px;
-}
 
-.four-digit-input {
-    width: 70px;
-}
-
-.five-digit-input {
-    width: 85px;
-}
-
-.six-digit-input {
-    width: 100px;
-}
-
-/* GAME PREFERENCES */
-.game-content div.preference-box {
-    background: rgb(86, 83, 74);
-}
-
-.game-content div.preference-box.disabled {
-    opacity: 0.5;
-}
 
 .game-content table.applicant-view input[type="submit"],
 .game-content table.mail-view input[type="submit"],
