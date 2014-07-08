@@ -16,32 +16,21 @@ a.highlighted { color: #E68910; }
 .navigation { color: #000000; font-size: 14px; font-weight: normal; text-align: left; border: 1px solid #000000; }
 .navigation a { color: #000000; }
 
-#header-navigation div {}
-#header-navigation div:hover {}
-
-#account-container {
-    font-size: 20px;
-}
-
-#account-header .account-image {}
 #account-header { color: #edf2fd; }
 #account-header:hover { background-color: #494432; }
 #account-header.selected { background-color: #494432; }
 
-#account-details
-{
+#account-details {
     font-size: 12px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 16px;
     background-color: #494432;
 }
 
-#account-details .account-title
-{
+#account-details .account-title {
     font-size: 18px;
     font-weight: bolder;
     border-bottom: 1px solid #000000;
-
 }
 
 #account-details .alert a {
@@ -52,12 +41,10 @@ a.highlighted { color: #E68910; }
     border-bottom: 1px solid #29261c;
 }
 
-#account-details .account-signout
-{
+#account-details .account-signout {
     border-top: 1px solid #29261c;
     font-weight: bold;
     text-align: right;
-
 }
 
 .report-this {
@@ -70,14 +57,12 @@ a.highlighted { color: #E68910; }
     background-color: #000000;
 }
 
-.overlay
-{
+.overlay {
     background-color: #2f2e2e;
     border:1px solid #666;
 }
 
-.overlay .close
-{
+.overlay .close {
     background-image:url("./images/overlay-close.png");
 }
 
