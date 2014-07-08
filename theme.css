@@ -528,7 +528,7 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 }
 
 .game-content tbody tr:nth-child(even) {
-    background: #cccccc;
+    background: #dddddd;
 }
 
 .game-content tbody tr.sub-total {
