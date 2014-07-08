@@ -502,19 +502,10 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-content tbody th { border-left: 1px solid #000000; }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
-
-
-
-.game-content tbody tr:nth-child(even) {
-    background: #dddddd;
-}
-
-.game-content tbody tr.sub-total {
-    background: none;
-}
+.game-content tbody tr:nth-child(even) { background: #dddddd; }
 
 .game-content tr.sub-total td {
-    border-top: 2px solid #B9B9B9;
+    border-top: 1px solid #ff0000;
     padding-bottom: 25px;
 }
 
