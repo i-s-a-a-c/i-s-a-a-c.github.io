@@ -505,12 +505,11 @@ td.news-province-modification { background-image: url(./images/kingdom_news/prov
 .game-content tbody tr:nth-child(even) { background: #dddddd; }
 
 .game-content tr.sub-total td {
-    border-top: 1px solid #ff0000;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .game-content table.schedule {
-    font-size:0.8em;
+    font-size: 14px;
 }
 
 
