@@ -87,11 +87,6 @@ a.info-link {
     background-color: #18100e;
 }
 
-.report-this:hover {
-    color: #c4a112;
-    background-color: #2a201d;
-}
-
 .reported-content {
     border: 2px inset #616161;
     background-color: #000000;
@@ -111,8 +106,7 @@ a.info-link {
 .age-changes,
 .lobby-panel,
 .campaigns {
-    border: 2px solid;
-    border-radius: 12px;
+    border: 1px solid;
     border-color: #555555;
     background: #494432;
 }
@@ -121,10 +115,6 @@ a.info-link {
     font-size: 40px;
     line-height: 40px;
     color: #EBE8CD;
-}
-
-.lobby-panel h1 a:hover {
-    color: #fff;
 }
 
 .divider {
@@ -139,52 +129,21 @@ a.info-link {
     background-position: top center;
 }
 
-.lobby-panel table th {
-    font-size: 20px;
-}
-
-.lobby-panel table td {
-    font-size: 14px;
-}
-
-.lobby-panel h2 {
-    font-size: 24px;
-    line-height: 30px;
-}
-
+.lobby-panel table th { font-size: 20px; }
+.lobby-panel table td { font-size: 14px; }
+.lobby-panel h2       { font-size: 24px; }
 .age-changes h3,
-.campaigns h3 {
-    font-size: 20px;
-    line-height: 24px;
-}
+.campaigns h3         { font-size: 20px; }
 
 .recruitment-campaigns h1,
 .race-changes h1,
-.trait-changes h1 {
-    font-size: 40px;
-    line-height: 45px;
-}
+.trait-changes h1 { font-size: 40px; }
 
 .race-changes h2,
-.trait-changes h2 {
-    font-size: 30px;
-}
+.trait-changes h2 { font-size: 30px; }
 
-.campaigns .basic-details .campaign-summary h2{
-    font-size: 18px;
-}
-
-.campaigns .basic-details .campaign-summary .highlight-keyword{
-    font-size: 22px;
-}
-
-.good {
-    color: #90ee90;
-}
-
-.bad {
-    color: #EC7566;
-}
+.good { color: #90ee90; }
+.bad  { color: #EC7566; }
 
 .message {
     font-weight: bold;
@@ -214,10 +173,6 @@ a.info-link {
     border-color: #feffea;
     background: #D09734;
 }
-
-
-/* User profile page
--------------------------------------------------------------- */
 
 .lobby-panel .statement {
     background: url('./images/province_profile/scroll.png') no-repeat;
@@ -249,8 +204,7 @@ a.info-link {
     line-height: 0.6em;
 }
 
-#resource-bar
-{
+#resource-bar {
     border: 1px solid;
     font-size: 12px;
     border-color: #000000;
@@ -791,5 +745,3 @@ td#inline-hostility-meter {
     text-shadow: none;
     font-weight: normal;
 }
-
-
